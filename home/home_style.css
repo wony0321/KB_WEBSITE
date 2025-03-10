@@ -1,0 +1,145 @@
+@import url("../base.css");
+
+body {
+  width: 100%;
+}
+
+.head {
+  height: 570px;
+  margin: 0 auto;
+  background-image: url(./KB_header.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+header .layout {
+  background-color: #494949db;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+header .menu {
+  color: white;
+  font-size: 16px;
+}
+
+header .logo {
+  margin-top: 10px;
+}
+
+.menu > a {
+  padding: 0 20px;
+}
+
+.menu span {
+  color: rgba(255, 255, 255, 0.397);
+}
+
+.sec {
+  display: flex;
+  width: 1120px;
+  margin: 0 auto;
+  padding: 52px 0 40px 0;
+}
+
+.notion {
+  float: left;
+  width: 741px;
+  border: 1px solid #d2d2d2;
+  display: block;
+  padding: 32px 28px 10px 29px;
+  max-width: 100vh;
+  margin-right: 6px;
+}
+
+.info {
+  float: right;
+  width: 373px;
+  border: 1px solid #d2d2d2;
+  display: block;
+}
+
+.notion > h2 {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: dotted 1px;
+  border-color: #d2d2d2;
+  font-weight: bold;
+  font-size: large;
+}
+
+.notion > p {
+  margin: 5px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.notion span {
+  color: hsl(0, 0%, 67%);
+}
+
+ul > li {
+  height: 120px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.first {
+  background-image: url(job_icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 55px 55px;
+  background-color: #f8f8f8;
+  width: 50%;
+  float: left;
+}
+
+.second {
+  background-image: url(qna_icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 55px 55px;
+  background-color: white;
+  width: 50%;
+  float: right;
+}
+
+.third {
+  background-image: url(info_icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 55px 55px;
+  background-color: white;
+  width: 50%;
+  float: left;
+}
+
+.last {
+  background-image: url(suit_icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 55px 55px;
+  background-color: #f8f8f8;
+  width: 50%;
+  float: right;
+}
+
+.foot_msg {
+  font-size: small;
+  color: #878787;
+}
+
+.foot {
+  display: flex;
+  width: 1120px;
+  margin: 15px auto;
+}
